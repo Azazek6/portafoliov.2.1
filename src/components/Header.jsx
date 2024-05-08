@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { toastMessage } from "../helpers/general";
 
 const Header = () => {
   return (
@@ -28,8 +29,9 @@ const Header = () => {
         </div>
         <div className="w-[100%] sm:w-auto flex">
           <NavLink
-            to="/"
+            to="#"
             className="w-[100%] sm:w-auto text-[#292828] text-center sm:text-start text-xs sm:text-sm font-normal border border-[#82807E] py-2 px-6 rounded-full hover:bg-[#292828] hover:text-white transition-all duration-500 ease-in-out"
+            onClick={() => toastMessage("En construcción...!", 2)}
           >
             Proyectos
           </NavLink>
