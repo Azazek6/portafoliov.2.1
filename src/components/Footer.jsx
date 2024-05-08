@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { BsGithub } from "react-icons/bs";
 import { ImLinkedin } from "react-icons/im";
 import { toastMessage } from "../helpers/general";
@@ -23,12 +23,12 @@ const Footer = () => {
       </div>
       <div className="w-[100%] flex justify-between items-center gap-5 sm:px-10">
         <div className="grid grid-rows-2 grid-flow-col items-center gap-5">
-          <NavLink to="/about" className="text-[#FAFAFA] text-xs sm:text-sm">
+          <Link to="/about" className="text-[#FAFAFA] text-xs sm:text-sm">
             Acerca de mi
-          </NavLink>
-          <NavLink to="" className="text-[#FAFAFA] text-xs sm:text-sm">
+          </Link>
+          <Link to="#" className="text-[#FAFAFA] text-xs sm:text-sm">
             Contacto
-          </NavLink>
+          </Link>
         </div>
         <div className="flex justify-center items-center gap-5">
           <div className="flex justify-center items-center">
