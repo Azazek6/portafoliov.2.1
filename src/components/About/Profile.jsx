@@ -2,7 +2,7 @@ import React from "react";
 
 const Profile = () => {
   return (
-    <section class="m-[0_auto] w-[9%] sm:w-[50%]">
+    <section class="m-[0_auto] w-[90%] sm:w-[50%]">
       <h1 class="text-[#292828] text-lg sm:text-3xl underline font-semibold tracking-wide">
         Perfil
       </h1>
