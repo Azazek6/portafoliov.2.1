@@ -8,16 +8,18 @@ import IconCV from "../assets/images/icon-cv.jpg";
 const Home = () => {
   return (
     <Layout>
-      <div className="m-[0_auto] w-[80%] sm:w-[70%] gap-3 mt-14 mb-[19.1rem]">
+      <div className="m-[0_auto] w-[80%] sm:w-[70%] gap-3 mt-14 mb-[15rem]">
         <div className="flex flex-col sm:flex-row items-center">
           <div className="sm:w-[50%]">
             <h1 className="text-[#292828] text-3xl sm:text-5xl font-bold">
               Hola, soy Adrian Gonzales Espinola
             </h1>
             <p className="text-[#292828] text-lg sm:text-2xl font-normal mt-5">
-              Ingeniero de Sistemas y Desarrollador Backend apasionado por la
-              tecnolog&iacute;a y autodidacta en constante exploraci&oacute;n de
-              nuevas herramientas y soluciones.
+              Ingeniero de Sistemas y Desarrollador apasionado por la
+              tecnolog&iacute;a, especializado en Node.js y MySQL en el backend,
+              con habilidades s&oacute;lidas en frontend usando JavaScript,
+              React y Next.js. Siempre en busca de nuevos desaf&iacute;os y
+              aprendizaje continuo.
             </p>
             <div className="flex flex-col gap-5 mt-5 pl-1">
               <div className="flex items-center gap-5">

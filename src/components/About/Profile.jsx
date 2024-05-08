@@ -7,16 +7,18 @@ const Profile = () => {
         Perfil
       </h1>
       <p class="text-[#292828] text-xs sm:text-sm mt-3 tracking-wide">
-        Ingeniero de Sistemas, mi perfil se destaca por un firme compromiso con
-        el aprendizaje continuo y el desarrollo profesional. Mi naturaleza
-        autodidacta me ha permitido abordar con agilidad diversos retos, tanto
-        en el ámbito tecnol&oacute;gico como en mi vida personal. Cuento con un
-        s&oacute;lido conocimiento en tecnolog&iacute;as fundamentales como
-        MySQL, MongoDB, Node JS, PHP, React y Next Js. Mi enfoque responsable y
-        orientado a metas, junto a mi habilidad de adaptaci&oacute;n, me
-        distinguen y busco aplicar y fortalecer estas capacidades en entornos
-        que demanden soluciones creativas y competencias tecnol&oacute;gicas
-        s&oacute;lidas.
+        Ingeniero de Sistemas apasionado por el desarrollo tecnol&oacute;gico,
+        con experiencia tanto en backend como en frontend. Poseo habilidades en
+        Node.js, MySQL, JavaScript, Tailwind CSS, React y Next.js, adquiridas a
+        trav&aacute;s de una constante búsqueda de conocimiento y
+        pr&aacute;ctica.
+      </p>
+      <p class="text-[#292828] text-xs sm:text-sm mt-3 tracking-wide">
+        Mi enfoque autodidacta y orientado a resultados me permite ofrecer
+        soluciones creativas y eficientes en cada proyecto. Mi objetivo es
+        aplicar estas habilidades en proyectos desafiantes, contribuyendo al
+        &eacute;xito del equipo y la organizaci&oacute;n con iniciativa y
+        compromiso constante.
       </p>
     </section>
   );
