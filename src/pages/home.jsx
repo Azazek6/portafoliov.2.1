@@ -16,10 +16,10 @@ const Home = () => {
             </h1>
             <p className="text-[#292828] text-lg sm:text-2xl font-normal mt-5">
               Ingeniero de Sistemas y Desarrollador apasionado por la
-              tecnolog&iacute;a, especializado en Node.js y MySQL en el backend,
-              con habilidades s&oacute;lidas en frontend usando JavaScript,
-              React y Next.js. Siempre en busca de nuevos desaf&iacute;os y
-              aprendizaje continuo.
+              tecnolog&iacute;a, con experiencia en Node.js y MySQL en el
+              backend, y habilidades en frontend usando JavaScript, React y
+              Next.js. Siempre en busca de nuevos desaf&iacute;os y aprendizaje
+              continuo.
             </p>
             <div className="flex flex-col gap-5 mt-5 pl-1">
               <div className="flex items-center gap-5">
