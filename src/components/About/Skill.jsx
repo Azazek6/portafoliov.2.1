@@ -10,7 +10,7 @@ import SkillIcon from "../SkillIcon";
 
 const Skill = () => {
   return (
-    <section className="m-[0_auto] w-[95%] sm:w-[50%] mt-5">
+    <section className="m-[0_auto] w-[85%] sm:w-[70%] md:w-[50%] mt-5">
       <h1 className="text-[#292828] text-lg sm:text-3xl underline font-semibold tracking-wide">
         Habilidades
       </h1>

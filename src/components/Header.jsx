@@ -5,10 +5,10 @@ import { toastMessage } from "../helpers/general";
 
 const Header = () => {
   return (
-    <nav className="w-[100%] flex flex-row justify-between sm:justify-normal items-center gap-10 px-8 sm:px-16 py-5">
+    <nav className="w-[100%] flex flex-row justify-between sm:justify-normal items-center gap-10 px-5 sm:px-16 py-5">
       <Link
         to="/"
-        className="text-[#292828] text-3xl sm:text-2xl font-semibold"
+        className="text-white hover:text-[#292828] bg-[#292828] hover:bg-white text-xl sm:text-2xl font-semibold border border-[#82807E] pt-1 pb-2 px-5 rounded-full transition-all duration-500 ease-in-out"
       >
         Adrian
       </Link>

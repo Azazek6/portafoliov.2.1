@@ -8,9 +8,9 @@ import IconCV from "../assets/images/icon-cv.jpg";
 const Home = () => {
   return (
     <Layout>
-      <div className="m-[0_auto] w-[80%] sm:w-[70%] gap-3 mt-14 mb-[15rem]">
-        <div className="flex flex-col sm:flex-row items-center">
-          <div className="sm:w-[50%]">
+      <div className="m-[0_auto] w-[80%] sm:w-[70%] gap-3 mt-10 sm:mt-24 mb-[15rem] md:mb-[23rem]">
+        <div className="flex flex-col md:flex-row items-center">
+          <div className="lg:w-[50%]">
             <h1 className="text-[#292828] text-3xl sm:text-5xl font-bold">
               Hola, soy Adrian Gonzales Espinola
             </h1>
@@ -42,7 +42,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="sm:w-[50%] hidden sm:visible sm:flex justify-center items-center">
+          <div className="md:w-[50%] hidden lg:flex justify-center items-center">
             <img
               width={100}
               height={100}
